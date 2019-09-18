@@ -1,5 +1,0 @@
-com\dao\PaperDao.class
-com\pojo\Paper.class
-com\controller\PaperController.class
-com\service\impl\PaperServiceImpl.class
-com\service\PaperService.class
