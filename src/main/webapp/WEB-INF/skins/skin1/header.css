@@ -1,0 +1,320 @@
+.header-bar {
+    height: 60px;
+    padding: 14px;
+    background:  url(img/logo-jpz-base.png) 1px no-repeat ,linear-gradient(180deg,
+    rgba(7, 43, 119, 1) 0%, rgba(7, 43, 119, 1) 29%, rgba(15, 56, 148, 1) 85%, rgba(15, 56, 148, 1) 100%);
+    /*background: rgba(7, 43, 119, 1) url(img/logo-jpz-base.png) 1px no-repeat;*/
+    line-height: 32px;
+    color: #999999;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.header-bar>div {
+    width: 380px;
+}
+
+.modules div {
+	width: 132px;
+	height: 58px;
+	margin-top: -14px;
+	line-height: 60px;
+	color: white;
+}
+
+.modules .countBox{
+	cursor: pointer;
+}
+.modules .countBox:hover{
+	background: #434343;
+}
+
+.modules .countBox:hover a{
+	color: #fff;
+}
+
+.modules .span{
+	margin: 0 auto;
+}
+
+.modules {
+   /* background: rgba(7, 43, 119, 1);*/
+    background:  rgba(255, 255, 255, 0);
+    min-width: 770px;
+}
+
+.modules a {
+    color: white;
+    font-size: 24px;
+}
+
+.modules a:hover {
+	text-decoration: none;
+}
+
+.modules span {
+	background-position: 2px 2px;
+	/*padding-left: 14px;*/
+	/*padding-right: 14px;*/
+}
+
+.modules .rtm :before{
+	content: url(img/icon_monitor.png) ;
+	padding: 6px;
+}
+
+.modules .dcim :before{
+	content: url(img/ico_setting.png) ;
+	padding: 6px;
+}
+
+.modules .dcom :before{
+	content: url(img/icon_operation.png) ;
+	padding: 6px;
+}
+
+.modules .ema :before{
+	content: url(img/icon_energy.png) ;
+	padding: 6px;
+}
+.modules .reliability :before{
+	content: url(img/icon_reliability.png) ;
+	padding: 6px;
+}
+.modules .am :before{
+	content: url(img/ico_asset.png) ;
+	padding: 6px;
+}
+
+.modules .perform :before{
+    content: url(img/icon_perform.png) ;
+    padding: 6px;
+}
+
+.modules .dcac :before{
+	content: url(img/icon_alarm.png) ;
+	padding: 6px;
+}
+
+.modules .gather :before{
+    content: url(img/icon_gather.png) ;
+    padding: 6px;
+}
+
+.logOut {
+	background: url(img/log_out.png) no-repeat;
+}
+
+
+.header-info {
+	margin-right: 20px;
+	min-width: 340px;
+}
+
+.header-info div {
+	width: 74px;
+	height: 58px;
+	margin-top: -14px;
+	line-height: 60px;
+	color: white;
+}
+
+.header-info .countBox {
+	text-align: center;
+	cursor: pointer;
+}
+
+.header-info .countBox:hover {
+	/*background: #434343;*/
+    background: #003399;
+}
+
+.header-info .userImage{
+	background: url(img/user.png) no-repeat;
+	position: absolute;
+	left: 25px;
+	z-index: 1;
+}
+
+.header-info .userName{
+	margin: 0;
+	font-size: 14px;
+	/*background: #434343;*/
+    background: #003399;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.notice {
+	color: #FF8000;
+}
+
+#msgCount {
+	background: rgba(102, 204, 0, 1);
+	border-radius: 3px;
+	padding: 1px 2px;
+	text-align: center;
+}
+
+#alarmCount {
+	background: rgba(255, 0, 0, 1);
+	border-radius: 3px;
+	display: block;
+	height: 20px;
+	width: 26px;
+	margin-top: 20px;
+    margin-left: 4px;
+    line-height: 20px;
+    float: left;
+}
+
+#tipCount {
+	background: rgba(22, 155, 213, 1);
+	border-radius: 3px;
+	display: block;
+	height: 20px;
+	width: 26px;
+	margin-top: 20px;
+    margin-left: 4px;
+    line-height: 20px;
+    float: left;
+}
+
+.header-info span.fa {
+	font-size: 20px;
+	color: white;
+}
+
+
+#btnLogout {
+	font-size: 20px;
+	line-height: 28px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#user {
+	color: #999999;
+	line-height: 32px;
+}
+
+#user span {
+	font-size: 14px;
+}
+
+.header-path {
+	min-height: 50px;
+	line-height: 50px;
+	color: rgb(221, 221, 221);
+	font-size: 12px;
+}
+
+.header-path .home{
+    height: 20px;
+    margin: 15px 6px 0 20px;
+    padding: 0 6px 0 6px;
+    line-height: 20px;
+    border-radius: 4px;
+    background-color: rgba(14, 21, 73, 1);
+    color: rgb(204, 204, 204);
+}
+
+.header-path .angle-right{
+	height: 50px;
+	/*margin: 10px 10px 10px 0;*/
+	padding: 0 6px 0 6px;
+	line-height: 50px;
+	border-radius: 4px;
+	color: rgb(204, 204, 204);
+}
+
+.header-path>.angle-right>.sub-system,
+.header-path>.angle-right>.module{
+	height: 20px;
+	margin-left: 5px;
+	line-height: 20px;
+	padding: 0 8px 0 8px;
+	border-radius: 4px;
+	/*background-color: rgba(40, 40, 40, 1);*/
+    background-color: rgba(14, 21, 73, 1);
+	color: rgb(204, 204, 204);
+	display: inline-block;
+}
+
+
+
+/*span.sub-system,
+span.module{
+	height: 20px;
+	margin: 10px 10px 10px 6px;
+	padding: 0 6px 0 6px;
+	line-height: 20px;
+	border-radius: 4px;
+	background-color: rgba(40, 40, 40, 1);
+	color: rgb(204, 204, 204);
+}*/
+
+/*.header-path>.sub-system,
+.header-path>.module {
+	height: 20px;
+	margin: 10px;
+	padding: 0 6px 0 6px;
+	line-height: 20px;
+	font-size: 12px;
+	background-color: rgba(40, 40, 40, 1);
+}*/
+
+/*.header-path>.sub-system:before,
+.header-path>.module:before {
+	content: "   \f105   ";
+	font: normal normal normal 20px/1 FontAwesome;
+	background-color: rgba(40, 40, 40, 0);
+}*/
+
+
+.header-path>.angle-right:before{
+	content: "   \f105   ";
+	font: normal normal normal 20px/1 FontAwesome;
+	color: rgb(204, 204, 204);
+}
+
+marquee {
+    background: rgba(21, 52, 118, 1);
+    font-size: 14px;
+    height: 40px;
+}
+
+/*@media(max-width: 1580px) {*/
+
+	/*.modules span {*/
+
+		/*padding-right: 10px;*/
+	/*}*/
+
+	/*.header-info span.fa {*/
+		/*font-size: 18px;*/
+	/*}*/
+	/*.header-bar {*/
+		/*background: #333333 url(img/ic_logo.png) 6px 6px no-repeat;*/
+	/*}*/
+/*}*/
+
+/*@media(max-width: 1330px) {*/
+	/*.modules a {*/
+		/*font-size: 12px;*/
+	/*}*/
+
+	/*.modules span {*/
+		/*padding-left: 10px;*/
+		/*padding-right: 10px;*/
+	/*}*/
+
+	/*.header-bar {*/
+		/*background: #333333 url(img/setting_1280.png) 6px 6px no-repeat;*/
+	/*}*/
+	/*.logOut {*/
+		/*background: url(img/log_out_1280.png) no-repeat;*/
+	/*}*/
+/*}*/

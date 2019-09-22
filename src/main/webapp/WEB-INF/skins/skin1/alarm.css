@@ -1,0 +1,130 @@
+
+.header-bar{
+    /*background:#333333 url(logo/logo7.png) 1px 1px no-repeat;*/
+    /*background-position: 14px 14px;*/
+    height: 60px;
+    padding: 14px;
+    background:  url(logo/logo-alarm-jpz.png) 1px no-repeat ,linear-gradient(180deg,
+    rgba(7, 43, 119, 1) 0%, rgba(7, 43, 119, 1) 29%, rgba(15, 56, 148, 1) 85%, rgba(15, 56, 148, 1) 100%);
+    /*background: rgba(7, 43, 119, 1) url(logo/logo-alarm-jpz.png) 1px no-repeat;*/
+    line-height: 32px;
+    color: #999999;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+div.header-bar{
+     border-bottom: 2px solid #0085B2;
+}
+
+.btn, .btn:focus, .btn:hover{
+	background: #337ab7;;
+	color: #FFFFFF;
+	border: none;
+}
+
+.searchBar>.btn:active, .form-dispose>.btn:active{
+	background: #0085B2;
+	color: #FFFFFF;
+	border: none;
+}
+
+.form-dispose>.btn{
+	width: 60px;
+	height: 24px;
+	margin: 20px 0 0 10px;
+	padding-top: 0;
+	line-height: 24px;
+	display: inline;
+	float: right;
+}
+
+nav ul button{
+	width: 120px;
+	height: 32px;
+	padding: 0;
+}
+
+/*nav ul{
+	padding: 9px 10px 9px 0;
+}*/
+
+.alarmLine{
+    border-bottom: 4px solid rgba(24, 114, 167, 1);
+}
+.notice {
+	color: #0085B2;
+}
+
+.left-menu-box>li>span:before {
+	color: #0085B2;
+}
+
+.left-menu-box>li.current {
+
+}
+
+.sub-menu-box li>span:before{
+	color: #0085B2;
+}
+.sub-menu-box>li>span:hover:before{
+	color: #FFFFFF;
+}
+.sub-menu-box>li>span:hover{
+	border-left: 4px solid #0085B2;
+}
+.sub-menu-box>li.current{
+	/*background: #0085B2;*/
+}
+.sub-menu-box>li.current>span:before{
+	color: #FFFFFF;
+}
+.sub-menu-box>li.current>span:hover{
+	/*background: #0085B2;*/
+}
+
+
+
+
+.sub-menu-box li:hover:before,.sub-menu-box>li.current:before{
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #0085B2;
+}
+.navbar-default .navbar-brand {
+    color: #0085B2;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #0085B2;
+}
+
+.zy_grid .body tr.selected td {
+    /*border-bottom: 1px solid #0085B2;*/
+    /*background: #0085B2;*/
+}
+.zy_grid .body tr:hover td {
+    border-bottom: 1px solid #0085B2;
+}
+
+.zy_dlg_title {
+    background: #0085B2;
+}
+.zy_tree .focus {
+    background: #0085B2;
+}
+
+.zy_grid .pageBar span.current {
+    background: #0085B2;
+}
+.zy_grid .pageBar span:hover {
+    background: #0085B2;
+}
+
+ul.nav-tabs>li.title{
+    color: #0085B2;
+}
+

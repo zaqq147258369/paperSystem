@@ -1,0 +1,39 @@
+body {
+    background: #222222;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+}
+
+.inputWrapper-left{
+    background: rgb(43,43,43);
+    width:248px;
+    height:36px;
+    padding:5px 16px ;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.inputWrapper-right{
+    background: rgb(43,43,43);
+    width:248px;
+    height:36px;
+    padding:5px 16px ;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.inputWrapper-left input,.inputWrapper-right input{
+    height:26px;
+    border:0px;
+    width: 216px;
+    height: 25px;
+    background-color: transparent;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: #999999;
+    border-color: transparent;
+    outline-style: none;
+}
