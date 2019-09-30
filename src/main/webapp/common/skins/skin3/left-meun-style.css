@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/* Starter CSS for Flyout Menu */
+.left-menu-container {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0 0;
+    border: 0;
+}
+
+.left-menu-container ul,
+.left-menu-container ul li,
+.left-menu-container ul ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.left-menu-container > ul > li {
+    height: 50px;
+}
+
+.left-menu-container ul {
+    position: relative;
+    z-index: 597;
+    float: left;
+}
+
+.left-menu-container ul li {
+    float: left;
+    min-height: 1px;
+    line-height: 1em;
+    vertical-align: middle;
+}
+
+.left-menu-container ul li.hover,
+.left-menu-container ul li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+
+.left-menu-container ul ul {
+    margin-top: 1px;
+    visibility: hidden;
+    position: absolute;
+    top: 1px;
+    left: 99%;
+    z-index: 598;
+    width: 100%;
+}
+
+.left-menu-container ul ul li {
+    float: none;
+}
+
+.left-menu-container ul ul ul {
+    top: 1px;
+    left: 99%;
+}
+
+.left-menu-container ul li:hover > ul {
+    visibility: visible;
+}
+
+.left-menu-container ul li {
+    float: none;
+}
+
+.left-menu-container ul ul li {
+    font-weight: normal;
+}
+
+/* Custom CSS Styles */
+.left-menu-container {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    width: 60px;
+}
+
+.left-menu-container ul a,
+.left-menu-container ul a:link,
+.left-menu-container ul a:visited {
+    display: block;
+    color: #848889;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.left-menu-container > ul {
+    float: none;
+}
+
+.left-menu-container ul {
+    /*background: #3c3c3c;*/
+}
+
+.left-menu-container > ul > li {
+    /*border-left: 3px solid #d7d8da;*/
+}
+
+.left-menu-container > ul > li > a {
+    padding: 10px 20px;
+}
+
+.left-menu-container > ul > li:hover {
+    /*border-left: 3px solid #3dbd99;*/
+}
+
+.left-menu-container ul li:hover > a {
+    /*color: #3dbd99;*/
+}
+
+.left-menu-container > ul > li:hover {
+    background: #3c3c3c;
+}
+
+/* Sub Menu */
+.left-menu-container ul ul a:link,
+.left-menu-container ul ul a:visited {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.left-menu-container ul ul {
+    width: 180px;
+    background: none;
+}
+
+.left-menu-container ul ul a {
+    padding: 8px 0;
+    /*border-bottom: 1px solid #eeeeee;*/
+}
+
+.left-menu-container ul ul li {
+    padding: 0 20px;
+    background: #3c3c3c;
+}
+
+.left-menu-container ul ul li:last-child {
+    /*border-bottom: 3px solid #d7d8da;*/
+    padding-bottom: 10px;
+}
+
+.left-menu-container ul ul li:first-child {
+    padding-top: 10px;
+}
+
+.left-menu-container ul ul li:last-child > a {
+    border-bottom: none;
+}

@@ -1,0 +1,125 @@
+
+.header-bar{
+    background:#333333 url(img/logo-alarm-jpz.png) no-repeat;
+    /*background-position: 14px 14px;*/
+}
+
+div.header-bar{
+    border-bottom: 2px solid #00dddd;
+}
+
+.btn, .btn:hover{
+	background: #00dddd;
+	color: #FFFFFF;
+	border: none;
+}
+
+.form-dispose>.btn:active{
+	background: #00dddd;
+	color: #FFFFFF;
+	border: none;
+}
+
+.form-dispose>.btn{
+	width: 60px;
+	height: 24px;
+	margin: 20px 0 0 10px;
+	padding-top: 0;
+	line-height: 24px;
+	display: inline;
+	float: right;
+}
+
+nav ul button{
+	width: 120px;
+	height: 32px;
+	padding: 0;
+}
+
+/*nav ul{
+	padding: 9px 10px 9px 0;
+}*/
+
+.alarmLine{
+	border-bottom: 4px solid #00dddd;
+}
+.notice {
+	color: #00dddd;
+}
+
+.left-menu-box>li>span:before {
+	color: #00dddd;
+}
+
+.left-menu-box>li.current {
+
+}
+
+.sub-menu-box li>span:before{
+	color: #00dddd;
+}
+.sub-menu-box>li>span:hover:before{
+	color: #FFFFFF;
+}
+.sub-menu-box>li>span:hover{
+	border-left: 4px solid #00dddd;
+}
+.sub-menu-box>li.current{
+	background: #00dddd;
+}
+.sub-menu-box>li.current>span:before{
+	color: #FFFFFF;
+}
+.sub-menu-box>li.current>span:hover{
+	background: #00dddd;
+}
+
+
+
+
+.sub-menu-box li:hover:before,.sub-menu-box>li.current:before{
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #00dddd;
+}
+.navbar-default .navbar-brand {
+    color: #00dddd;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #00dddd;
+}
+
+.zy_grid .body tr.selected td {
+    border-bottom: 1px solid #00dddd;
+    background: #00dddd;
+}
+.zy_grid .body tr:hover td {
+    border-bottom: 1px solid #00dddd;
+}
+
+.zy_dlg_title {
+    background: #00dddd;
+}
+.zy_tree .focus {
+    background: #00dddd;
+}
+
+.zy_grid .pageBar span.current {
+    background: #00dddd;
+}
+.zy_grid .pageBar span:hover {
+    background: #00dddd;
+}
+
+ul.nav-tabs>li.title{
+    color: #00dddd;
+}
+@media(max-width: 1440px) {
+	.header-bar {
+		background: #333333 url(img/logo-alarm-jpz-1440.png) no-repeat;
+	}
+}
+

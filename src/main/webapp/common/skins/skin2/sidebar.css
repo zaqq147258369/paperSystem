@@ -1,0 +1,156 @@
+
+div.main{
+	border-top:2px solid rgba(255, 128, 0, 1);
+}
+
+.left-nav{
+	width:250px;
+	background: #333333;
+	color: #999999;
+}
+.left-menu-box{
+	padding-top:10px;
+	padding-left:0px;
+}
+.left-menu-box>li{
+	list-style: none;
+	line-height: 42px;
+	cursor:pointer;
+	width:100%;
+	position:relative;
+}
+
+.left-menu-box>li:hover{
+	color:rgba(255, 128, 0, 1);
+}
+
+.left-menu-box>li.current{
+	color:rgba(255, 128, 0, 1);
+}
+
+
+.left-menu-box>li:before{
+	font-size: 18px;
+	color:rgba(255, 128, 0, 1);
+	margin-left:20px;
+	display: inline-block;
+	width:20px;
+	text-align:center;
+	padding:0px;
+
+}
+
+
+.left-menu-box>li>span:nth-child(1){
+	margin-left:10px;
+	font-family:"microsoft yahei";
+	width:170px;
+	display:inline-block;
+	position:absolute;
+	left:40px;
+	top:0px;
+}
+
+.left-menu-box>li>span:nth-child(2){
+	font-size:14px;
+	left:180px;
+}
+
+
+
+.left-menu-box>li.current >.sub-menu-box{
+	display:block;
+}
+
+.sub-menu-box{
+	display:none;
+	background: rgb(68,68,68);
+	padding-left:0px;
+}
+
+.sub-menu-box li:before{
+	content:"●";
+	font-size:6px;
+	margin-right:8px;
+	color:rgba(255, 128, 0, 1);
+	padding-left:50px;
+}
+
+.sub-menu-box li {
+	font-family: "microsoft yahei";
+	color: #999999;
+}
+
+.sub-menu-box li:hover{
+	background: rgba(255, 128, 0, 1);
+	color: white;
+}
+
+/******* old start *********/
+
+.sidebar-surround {
+	width: 250px;
+	background: #333333;
+	height:calc(100% - 100px);
+	float:left;
+}
+
+ul.menu-box{
+	padding-left:0px;
+}
+ul.menu-box li{
+	list-style:none;
+}
+
+ul.menu-box a{
+	color: #999999;
+    cursor: pointer;
+    text-decoration: none;
+	margin-left:20px;
+}
+
+ul.menu-box li{
+	display:none;
+	line-height: 40px;
+}
+
+ul.menu-box li a:before{
+	content:url(img/ic_menu.png);
+	margin-right:10px;
+}
+
+ul.menu-list{
+	display:none;
+	padding-left:0px;
+	background: rgb(68,68,68);
+}
+
+ul.menu-list li {
+	display:none;
+}
+ul.menu-list li a{
+	margin-left:40px;
+}
+
+ul.menu-list li a:before{
+	content:"●";
+	margin-right:10px;
+}
+
+ul.menu-list li:hover,ul.menu-list li.current{
+	background: rgb(255,128,0);
+}
+ul.menu-list li:hover>a,ul.menu-list li.current a{
+	color:white;
+}
+ul.menu-box li:hover ul.menu-list{
+	display:block;
+}
+ul.menu-box li.open ul.menu-list{
+	display:block;
+}
+
+
+
+
+

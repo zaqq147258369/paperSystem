@@ -1,0 +1,157 @@
+.header-bar{
+    background:#333333 url(img/logo-monitor-jpz.png) no-repeat;
+}
+.rightFrameBox{
+	padding:0px;
+}
+
+div.header-bar{
+    border-bottom: 2px solid #D90000;
+}
+
+.notice {
+	color: #D90000;
+}
+
+.monitorLine{
+	border-bottom: 4px solid #D90000;
+	cursor: pointer;
+
+}
+
+.left-menu-box>li>span:before {
+	color: #00dddd;
+}
+
+
+.left-menu-box>li.current {
+
+}
+
+.left-menu-box>li.alarm>span:before {
+	color: #D90000;
+}
+
+.sub-menu-box-1{
+	background: #4E4E4E;
+}
+
+.sub-menu-box-1 li>span:before {
+	content: "|-";
+	color: #D90000;
+	list-style-type: none;
+	padding-left: 70px;
+}
+
+.sub-menu-box li>span:before {
+	color: #00dddd;
+}
+.sub-menu-box>li>span:hover:before{
+	color: #FFFFFF;
+}
+
+.sub-menu-box>li>span:hover{
+	border-left: 4px solid #00dddd;
+}
+
+.sub-menu-box>li.current{
+	border-left: 4px solid #00dddd;
+}
+
+.sub-menu-box>li.normal{	
+}
+
+.sub-menu-box>li.alarm>span:before{	
+	color: #D90000;
+}
+
+
+
+
+
+.sub-menu-box>li.current>span:before{
+	color: #FFFFFF;
+}
+
+.sub-menu-box>li.current>span:hover{
+	background: #00dddd;
+}
+
+.sub-menu-box>li.current-alarm{
+	background: #D90000;
+}
+.sub-menu-box>li.current-alarm>span:before{
+	color: #FFFFFF;
+}
+
+.sub-menu-box>li.current-alarm>span:hover{
+	border-left: 4px solid #D90000;
+	background: #D90000;
+}
+
+
+
+.sub-menu-box>li.alarm>span:hover{
+	background: #D90000;
+}
+.sub-menu-box>li.alarm>span:hover:before{
+	color: #FFFFFF;
+}
+.sub-menu-box>li.alarm>span:hover{
+	border-left: 4px solid #D90000;
+}
+.left-menu-box>li.alarm>span:hover{
+	background: #D90000;
+}
+.left-menu-box>li.alarm>span:hover:before{
+	color: #FFFFFF;
+}
+
+
+.sub-menu-box li:hover:before,.sub-menu-box>li.current:before{
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #D90000;
+}
+.navbar-default .navbar-brand {
+    color: #D90000;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #D90000;
+}
+
+.zy_grid .body tr.selected td {
+    border-bottom: 1px solid #D90000;
+    background: #D90000;
+}
+.zy_grid .body tr:hover td {
+    border-bottom: 1px solid #D90000;
+}
+
+.zy_dlg_title {
+    background: #D90000;
+}
+.zy_tree .focus {
+    background: #D90000;
+}
+
+.zy_grid .pageBar span.current {
+    background: #D90000;
+}
+.zy_grid .pageBar span:hover {
+    background: #D90000;
+}
+
+ul.nav-tabs>li.title{
+    color: #D90000;
+}
+
+
+@media(max-width: 1440px) {
+	.header-bar {
+		background: #333333 url(img/logo-monitor-jpz-1440.png) no-repeat;
+	}
+}

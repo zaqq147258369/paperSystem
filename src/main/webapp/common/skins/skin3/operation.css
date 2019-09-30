@@ -1,0 +1,96 @@
+.header-bar{
+	background:#333333 url(img/logo-operation-jpz.png) no-repeat;
+	/*background-position: 14px 14px;*/
+}
+
+div.header-bar{
+	border-bottom: 2px solid #00B285;
+}
+.operationLine{
+	border-bottom: 4px solid #00B285;
+}
+.notice {
+	color: #00B285;
+}
+
+
+.left-menu-box>li>span:before{
+    color: #00B285;
+}
+
+
+
+.left-menu-box>li.current {
+
+}
+
+.sub-menu-box li>span:before{
+	color: #00B285;
+}
+
+.sub-menu-box>li>span:hover:before{
+	color: #FFFFFF;
+}
+
+.sub-menu-box>li>span:hover{
+	border-left: 4px solid #00B285;
+}
+
+.sub-menu-box>li.current{
+	background: #00B285;
+}
+
+.sub-menu-box>li.current>span:before{
+	color: #FFFFFF;
+}
+
+
+
+.sub-menu-box>li.current>span:hover{
+	background: #00B285;
+}
+
+
+
+.sub-menu-box li:hover:before,.sub-menu-box>li.current:before{
+	color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #00B285;
+}
+.navbar-default .navbar-brand {
+    color: #00B285;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #00B285;
+}
+
+.zy_grid .body tr.selected td {
+    border-bottom: 1px solid #00B285;
+    background: #00B285;
+}
+.zy_grid .body tr:hover td {
+    border-bottom: 1px solid #00B285;
+}
+
+.zy_dlg_title {
+    background: #00B285;
+}
+.zy_tree .focus {
+    background: #00B285;
+}
+
+.zy_grid .pageBar span.current {
+    background: #00B285;
+}
+.zy_grid .pageBar span:hover {
+    background: #00B285;
+}
+
+@media(max-width: 1440px) {
+	.header-bar {
+		background: #333333 url(img/logo-operation-jpz-1440.png) no-repeat;
+	}
+}
