@@ -150,13 +150,13 @@
 
 	#header
 	{
-		padding: 14em 0 7em 0;
+		padding: 3em 0 7em 0;
 	}
 	
 		#header h1
 		{
 			font-size: 3em;
-			letter-spacing: 13px;
+			letter-spacing: 40px;
 		}
 		
 		#header p
@@ -377,4 +377,13 @@
 	{
 		margin-top: 6em;
 		padding-top: 4em;
+	}
+	.imgDrg{
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+	}
+	.imgSe{
+		width: 300px;
+		height: 100px;
 	}
